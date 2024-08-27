@@ -28,8 +28,6 @@ def app():
     comment_dir = "data/comment"
     comments = [p.path for p in os.scandir(comment_dir) if p.is_file()]
 
-    print(comments)
-
     for comment_file in comments:
         with open(comment_file, "r") as f:
             comment_text = f.read()

@@ -1,7 +1,5 @@
 import streamlit as st
 import json
-import folium
-from streamlit_folium import folium_static
 
 def app():
     st.title("Wedding Location")
@@ -16,9 +14,8 @@ def app():
 
     lat = location_data["coordinates"]["lat"]
     lon = location_data["coordinates"]["lon"]
-    map = folium.Map(location=[lat, lon], zoom_start=16)
 
-    st_map = folium_static(map)
+    st.image("assets/images/sketch_map.png")
 
 if __name__ == "__main__":
     app()
