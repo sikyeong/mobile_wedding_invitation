@@ -1,0 +1,12 @@
+{
+    "bride": {
+        "name": "Jane Doe",
+        "account_number": "1234567890",
+        "bank_name": "ABC Bank"
+    },
+    "groom": {
+        "name": "John Smith",
+        "account_number": "0987654321",
+        "bank_name": "XYZ Bank"
+    }
+}
