@@ -16,7 +16,7 @@ def app():
         st.write(couple_info['bride']['bio'])
 
     with col2:
-        st.image("assets/images/groom.jpg", use_column_width=True)
+        st.image("assets/images/groom.png", use_column_width=True)
         st.write(f"**{couple_info['groom']['name']}**")
         st.write(couple_info['groom']['bio'])
 
